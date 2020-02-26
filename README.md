@@ -47,6 +47,20 @@ Write `node server/app.js` everytime is boring. So, we define a npm command. Now
 #### 2: nodemon
 Turn off/on everyime we do a change in the project is boring too. So, we use nodemon instead of `node` (And redefine `npm run start`)
 
+#### 3: Sequelize
+Check Database if you skip that part. You will need an user with some privileges.
+Include requisites:
+```sh
+npm install sequelize sequelize-cli pg-hstore express
+```
+
+Once done, we can start with the database. In bash run:
+```sh
+sequelize-cli init
+sequelize-cli db:create
+```
+P.S.: If you can't find `sequelize-cli` try: `npx sequelize-cli` or `node node_modules/.bin/sequelize-cli`
+
 ## Running the tests
 
 No tests included yet.
