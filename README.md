@@ -61,6 +61,14 @@ sequelize-cli db:create
 ```
 P.S.: If you can't find `sequelize-cli` try: `npx sequelize-cli` or `node node_modules/.bin/sequelize-cli`
 
+#### 4: Model Enterprise
+Create first model:
+
+```sh
+sequelize-cli model:create --name Enterprise --attributes name:string,countryId:string,address:string,phoneNumber:string
+sequelize-cli db:migrate
+```
+
 ## Running the tests
 
 No tests included yet.
