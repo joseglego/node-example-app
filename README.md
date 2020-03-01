@@ -68,6 +68,8 @@ Create first model:
 sequelize-cli model:create --name Enterprise --attributes name:string,countryId:string,address:string,phoneNumber:string
 sequelize-cli db:migrate
 ```
+#### 5: Define first Controllers & Routes (for Enterprise)
+Create first 2 routes with correspondent controllers
 
 ## Running the tests
 
