@@ -41,6 +41,9 @@ cd node-example-app
 #### 0: Initial commit
 Nothing special, define `package.json` and define first needs.
 
+#### 1: npm run start
+Write `node server/app.js` everytime is boring. So, we define a npm command. Now, we'll do `npm run start`
+
 ## Running the tests
 
 No tests included yet.
