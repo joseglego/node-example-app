@@ -71,6 +71,9 @@ sequelize-cli db:migrate
 #### 5: Define first Controllers & Routes (for Enterprise)
 Create first 2 routes with correspondent controllers
 
+#### 6: Define Modular Structure
+MOST of the backend apps are showed in MVC. But, in node is common see the MVC structure for modules (Like in Python w/Django). It's becasue you can remove every module and plugin in another application.
+
 ## Running the tests
 
 No tests included yet.
