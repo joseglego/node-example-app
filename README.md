@@ -44,6 +44,9 @@ Nothing special, define `package.json` and define first needs.
 #### 1: npm run start
 Write `node server/app.js` everytime is boring. So, we define a npm command. Now, we'll do `npm run start`
 
+#### 2: nodemon
+Turn off/on everyime we do a change in the project is boring too. So, we use nodemon instead of `node` (And redefine `npm run start`)
+
 ## Running the tests
 
 No tests included yet.
